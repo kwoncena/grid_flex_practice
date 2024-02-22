@@ -1,7 +1,14 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+
 }
+
+.box1{
+
+    grid-area: 1/1/4/2;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(9, 1fr);
