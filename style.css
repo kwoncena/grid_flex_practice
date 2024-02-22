@@ -4,15 +4,15 @@ body {
 }
 .grid-container {
     display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-auto-rows: minmax(100px, auto);
     grid-template-areas:
         "header header"
         "aside nav"
         "article article"
         "footer footer";
-    grid-template-rows: auto auto 1fr auto;
-    grid-template-columns: 200px 1fr;
-    min-height: 100vh;
 }
+
 header {
     grid-area: header;
     background-color: #333;
