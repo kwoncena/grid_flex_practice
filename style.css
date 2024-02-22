@@ -18,24 +18,29 @@ header {
     background-color: #333;
     color: #fff;
     padding: 20px;
+    grid-template-rows: auto;
 }
 aside {
     grid-area: aside;
     background-color: #f4f4f4;
     padding: 20px;
+    grid-template-columns: auto;
 }
 nav {
     grid-area: nav;
     background-color: #ddd;
     padding: 20px;
+    grid-template-rows: auto;
 }
 article {
     grid-area: article;
     padding: 20px;
+    grid-template-columns: auto;
 }
 footer {
     grid-area: footer;
     background-color: #333;
     color: #fff;
     padding: 20px;
+    grid-template-rows: auto;
 }
